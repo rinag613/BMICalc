@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+<TextView
+    android:id="@+id/banner"
+    android:layout_marginTop="@dimen/standard_margin"
+    android:layout_marginBottom="@dimen/standard_margin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/banner_text"
+    android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+    />
+
+    <!--height-->
+<TextView
+    android:id="@+id/tv_height"
+    android:text="@string/height_inches"
+    style="@style/multi_text_view_style" />
+
+    <EditText
+        android:id="@+id/et_height"
+        android:hint="64"
+        style="@style/main_edit_text" />
+    <!--weight-->
+    <TextView
+        android:id="@+id/tv_weight"
+        style="@style/multi_text_view_style"
+        android:text="@string/weight_pounds"/>
+
+    <EditText
+        android:id="@+id/et_weight"
+        android:hint="120"
+        style="@style/main_edit_text"/>
+
+
+</LinearLayout>

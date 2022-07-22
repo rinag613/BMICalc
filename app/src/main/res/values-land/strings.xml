@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_msg_height_or_weight_not_valid">The height and weight must each be greater than 0.</string>
+</resources>
